@@ -1,0 +1,2 @@
+export const RECORD_LOADED = 'RECORD_LOADED';
+export const AUDIO_TIME_UPDATE = 'AUDIO_TIME_UPDATE';

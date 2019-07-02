@@ -1,0 +1,39 @@
+.root
+  display: flex
+  align-items: center
+  height: 14px
+  padding: 0 24px
+  
+
+.bar
+  position: relative
+  width: 100%
+  height: 4px
+  background-color: lighten(#e8e8e8, 5)
+  cursor: pointer
+
+.played
+  position: absolute
+  top: 0
+  left: 0
+  height: 4px
+  background-color: #3374eb
+  transition: width 150ms
+
+.loaded
+  position: absolute
+  top: 0
+  left: 0
+  height: 4px
+  background-color: #e8e8e8
+  transition: width 150ms
+
+.point
+  position: absolute
+  top: -5px
+  width: 14px
+  height: 14px
+  border-radius: 7px
+  background-color: #3374eb
+  transition: left 150ms
+  
